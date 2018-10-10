@@ -64,11 +64,61 @@
                     <connections>
                         <outlet property="passwordTextField" destination="mrI-MF-Jm0" id="N4D-gS-WRP"/>
                         <outlet property="usernameTextField" destination="DOT-gF-lCj" id="vDu-4k-n4C"/>
+                        <segue destination="lNl-uC-khF" kind="presentation" identifier="toMain" id="hlh-lk-vWB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="L0e-L8-mVl">
+            <objects>
+                <navigationController id="lNl-uC-khF" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="3eO-va-9XD">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="1" green="0.52862853210000005" blue="0.6170009944" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Izj-Hz-rmk" kind="relationship" relationship="rootViewController" id="gyV-xs-qWi"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LKg-Kb-Mx3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="906" y="119"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="327-zE-5AJ">
+            <objects>
+                <viewController id="Izj-Hz-rmk" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="m6K-nK-NSS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Main" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iMX-gE-Wx3">
+                                <rect key="frame" x="155" y="315" width="65" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="65" id="SUa-YB-6A7"/>
+                                    <constraint firstAttribute="height" constant="37" id="xut-xf-b2a"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="iMX-gE-Wx3" firstAttribute="centerY" secondItem="m6K-nK-NSS" secondAttribute="centerY" id="uFI-B9-FWm"/>
+                            <constraint firstItem="iMX-gE-Wx3" firstAttribute="centerX" secondItem="m6K-nK-NSS" secondAttribute="centerX" id="xpb-cO-kMe"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="G2o-2Y-Q1m"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="yud-F3-uId"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Cl-cE-QVM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1633" y="128"/>
         </scene>
     </scenes>
 </document>

@@ -39,6 +39,7 @@ class ViewController: UIViewController {
                 let resource = response.value
                 self.accessToken = resource?.accessToken
                 self.loginResource.accessToken = resource?.accessToken
+                self.performSegue(withIdentifier: "toMain", sender: nil)
                 print("loginResource\(self.loginResource)")
             case .failure(let error):
                 print("ERROR with '\(error)")
