@@ -13,6 +13,7 @@
 		ABEAC16C216DB90D001A1713 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABEAC16A216DB90D001A1713 /* Main.storyboard */; };
 		ABEAC16E216DB90F001A1713 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABEAC16D216DB90F001A1713 /* Assets.xcassets */; };
 		ABEAC171216DB90F001A1713 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABEAC16F216DB90F001A1713 /* LaunchScreen.storyboard */; };
+		ABEAC179216DBB81001A1713 /* LoginResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEAC178216DBB81001A1713 /* LoginResource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		ABEAC16D216DB90F001A1713 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABEAC170216DB90F001A1713 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABEAC172216DB90F001A1713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABEAC178216DBB81001A1713 /* LoginResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginResource.swift; sourceTree = "<group>"; };
 		F2D7EEA555F83C079864DA36 /* Pods-tutorialBasic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tutorialBasic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tutorialBasic/Pods-tutorialBasic.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				ABEAC166216DB90D001A1713 /* AppDelegate.swift */,
+				ABEAC178216DBB81001A1713 /* LoginResource.swift */,
 				ABEAC168216DB90D001A1713 /* ViewController.swift */,
 				ABEAC16A216DB90D001A1713 /* Main.storyboard */,
 				ABEAC16D216DB90F001A1713 /* Assets.xcassets */,
@@ -203,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABEAC169216DB90D001A1713 /* ViewController.swift in Sources */,
+				ABEAC179216DBB81001A1713 /* LoginResource.swift in Sources */,
 				ABEAC167216DB90D001A1713 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
