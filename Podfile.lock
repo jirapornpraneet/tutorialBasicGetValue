@@ -4,20 +4,26 @@ PODS:
     - Alamofire
     - EVReflection/Core
   - EVReflection/Core (5.7.0)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
 
 DEPENDENCIES:
   - Alamofire (~> 4.7.3)
   - EVReflection/Alamofire (~> 5.7.0)
+  - SDWebImage (~> 4.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
     - EVReflection
+    - SDWebImage
 
 SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
   EVReflection: c579d225cf0ec062d80f35f5af82acd770016a76
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
 
-PODFILE CHECKSUM: 8f7db13cdde9650ee4a358a16c9dcf3f460ec806
+PODFILE CHECKSUM: 93b1e724062fd47a5c53e97bd3851dec15eb9b5d
 
 COCOAPODS: 1.5.3

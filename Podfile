@@ -7,5 +7,5 @@ target 'tutorialBasic' do
 
   pod 'Alamofire', '~> 4.7.3'
   pod 'EVReflection/Alamofire', '~> 5.7.0'
-
+  pod 'SDWebImage', '~> 4.0'
 end

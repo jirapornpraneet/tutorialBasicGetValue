@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		22D7E912665B3C16F4CD5EE4 /* Pods_tutorialBasic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ACBD394F7CB5CBA28EC3CA0 /* Pods_tutorialBasic.framework */; };
+		ABD141A32170824C00A9E3F4 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD141A22170824C00A9E3F4 /* MainTableViewController.swift */; };
+		ABD141A52170861500A9E3F4 /* LPRResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD141A42170861500A9E3F4 /* LPRResource.swift */; };
 		ABEAC167216DB90D001A1713 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEAC166216DB90D001A1713 /* AppDelegate.swift */; };
 		ABEAC169216DB90D001A1713 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEAC168216DB90D001A1713 /* ViewController.swift */; };
 		ABEAC16C216DB90D001A1713 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABEAC16A216DB90D001A1713 /* Main.storyboard */; };
@@ -19,6 +21,8 @@
 /* Begin PBXFileReference section */
 		2D1A6A8F37D4B401687341F6 /* Pods-tutorialBasic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tutorialBasic.release.xcconfig"; path = "Pods/Target Support Files/Pods-tutorialBasic/Pods-tutorialBasic.release.xcconfig"; sourceTree = "<group>"; };
 		8ACBD394F7CB5CBA28EC3CA0 /* Pods_tutorialBasic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tutorialBasic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABD141A22170824C00A9E3F4 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		ABD141A42170861500A9E3F4 /* LPRResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPRResource.swift; sourceTree = "<group>"; };
 		ABEAC163216DB90D001A1713 /* tutorialBasic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tutorialBasic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABEAC166216DB90D001A1713 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABEAC168216DB90D001A1713 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -82,7 +86,9 @@
 			children = (
 				ABEAC166216DB90D001A1713 /* AppDelegate.swift */,
 				ABEAC178216DBB81001A1713 /* LoginResource.swift */,
+				ABD141A42170861500A9E3F4 /* LPRResource.swift */,
 				ABEAC168216DB90D001A1713 /* ViewController.swift */,
+				ABD141A22170824C00A9E3F4 /* MainTableViewController.swift */,
 				ABEAC16A216DB90D001A1713 /* Main.storyboard */,
 				ABEAC16D216DB90F001A1713 /* Assets.xcassets */,
 				ABEAC16F216DB90F001A1713 /* LaunchScreen.storyboard */,
@@ -169,11 +175,13 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-tutorialBasic/Pods-tutorialBasic-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/EVReflection/EVReflection.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EVReflection.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -205,7 +213,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABD141A32170824C00A9E3F4 /* MainTableViewController.swift in Sources */,
 				ABEAC169216DB90D001A1713 /* ViewController.swift in Sources */,
+				ABD141A52170861500A9E3F4 /* LPRResource.swift in Sources */,
 				ABEAC179216DBB81001A1713 /* LoginResource.swift in Sources */,
 				ABEAC167216DB90D001A1713 /* AppDelegate.swift in Sources */,
 			);
